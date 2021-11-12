@@ -1,0 +1,41 @@
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: url(images/akanimages1);
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+.logo{
+    color: rgb(61, 61, 61);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color:blue
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: tomato;
+    transition: .4s;
+}
