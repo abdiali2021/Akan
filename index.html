@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js"></script>
     <title>Akan name generator</title>
 </head>
 <body>
 <div class="head">
     <nav> 
-        <h2 class="logo">AKAN-NAME <span> GENERATOR<span></h2>
+        <h2 class="logo">AKAN-NAME GENERATOR</h2>
     </nav>
 
     
@@ -21,24 +22,31 @@
     <p>The Akan name generator calculates your birth date and gives you your akan name depending on your gender and the day of the week you were born</p>
     </div>
 
-      <div class="flex">
-          <div>
-              <input type="text" placeholder="DAY">
-            </div>
-          <div>
-              <input type="text" placeholder="MONTH">
-            </div>
-          <div>
-              <input type="text" placeholder="YEAR">
-            </div>
-                    
+    <form> 
+<h2 class="input">Input your birth date</h2>
+<input type="text" id="day" class="contain" placeholder="day">
+<p id="dateerror"></p>
 
-           <div>
-               <button>Get your akan name</button> 
-           </div>
+<input type="text" id="month" class="contain" placeholder="month">
+<p id="montherror"></p>
+
+<input type="text" id="year" class="contain" placeholder="year">
+<p id="yearerror"></p>
+
+
+<h2>Choose your gender</h2>
+<label for="male">Male;</label>
+<input type="checkbox" id="male">
+<label for="female">Female</label>
+<input type="checkbox" id="female">
+<p id="check-boxerror"></p>
+
+<button style="color: black;" class="btn btn-primary" id="fn()">Click me </button>
+    </form>
            
 
       </div>
+      
 
 </div>
     
