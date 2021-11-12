@@ -1,21 +1,4 @@
-.hero{
-    text-align: center;
-}
-.finder{
-    color: yellow
-}
-
-
-
-
-
-
-
-
-
-
-
-.header-image{
+.header{
     position: absolute;
     z-index: -10;
     width: 100%;
@@ -23,6 +6,23 @@
     display: block;
     object-fit: cover;
     object-position: top;
-    border-radius: 2px;
+    border-radius: 8px;
 }
+.color{
+    background-color:  linear-gradient(to top right, black);
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+}
+body{
+    color: white;
     
+}
+
+
+
+
+
+
+
+
