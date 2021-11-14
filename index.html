@@ -4,54 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <script src="JS/script.js"></script>
-    <title>Akan name generator</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Akan Names</title>
 </head>
 <body>
-<div class="head">
-    <nav> 
-        <h2 class="logo">AKAN-NAME GENERATOR</h2>
-    </nav>
-
-    
-   <img class="header"src="images/enoch.jpg" alt="">
-     <h3 class="finder">FIND OUT YOUR AKAN NAME</h3>
-
-      <div class="p"> <p> The Akan are a meta-ethnicity living primarily in the countries of present-day Ghana and Ivory Coast. </p> 
-    <p>The Akan name generator calculates your birth date and gives you your akan name depending on your gender and the day of the week you were born</p>
+    <div class="navbar">
+        Akan Names
     </div>
+    <div class='container'>
+        <div class='header'>
+            <h3 class="title">Find Out Your Akan Name</h3>
+            <p>
+                The Akan are a meta-ethnicity living primarily in the countries of present-day Ghana and Ivory Coast.
+            </p>
+            <p>
+                The Akan name generator calculates your birth date and gives you your akan name depending on your gender and the day of the week you were born.
+            </p>
+            <p>
+                Male names were Kwasi, Kwadwo, Kwabena, Kwaku, Yaw, Kofi and Kwame.
+            </p>
+            <p>
+                Female names were Akosua, Adwoa, Abenaa, Akua, Yaa, Afua and Ama.
+            </p>
+        </div>
 
-    <form> 
-<h2 class="input">Input your birth date</h2>
-<input type="text" id="day" class="contain" placeholder="day">
-<p id="dateerror"></p>
-
-<input type="text" id="month" class="contain" placeholder="month">
-<p id="montherror"></p>
-
-<input type="text" id="year" class="contain" placeholder="year">
-<p id="yearerror"></p>
-
-
-<h2>Choose your gender</h2>
-<label for="male">Male;</label>
-<input type="checkbox" id="male">
-<label for="female">Female</label>
-<input type="checkbox" id="female">
-<p id="check-boxerror"></p>
-
-<button style="color: black;" class="btn btn-primary" id="fn()">Click me </button>
-    </form>
-           
-
-      </div>
-      
-
-</div>
+        <h3 class='title'>Input Your Birth Date</h3>
+        <div class="formContainer">
+            <form class="form">
+                <input type="date" class='dateOfBirth'>
     
-
+                <div class='radio'>
+                    <input type="radio" id='male' value='male' name='gender'>
+                    <label for="male">Male</label>
+                    <br>
+                    <input type="radio" id='female' value='female' name='gender'>
+                    <label for="female">Female</label>
+                </div>
+                <br>
+                <div>
+                    <h4 class="akanName"></h4>
+                </div>
+                <button type="submit" class='submitButton'>Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="/JS/script.js"></script>
 </body>
 </html>
-
-    
