@@ -1,12 +1,17 @@
-{Portfolio}
-This i
+{AKAN NAME GENERATOR}
+{A website built to help the user know what their name would be if they were part of the Akan people}
 Description
-{This is my first landing page}
+It is a website that determines Akan names based on the users birthdate.
 
 Setup/Installation Requirements
+A web browser.
+
+Good internet connenction.
+
 Clone the repo {git clone 
-Have ubuntu installedhttps://abdiali2021.github.io/port/
+
 Live link 
+
 Known Bugs 
 No known bugs
 
