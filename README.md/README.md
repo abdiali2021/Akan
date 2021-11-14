@@ -4,9 +4,9 @@ Description
 It is a website that determines Akan names based on the users birthdate.
 
 Setup/Installation Requirements
-A web browser.
+-A web browser.
 
-Good internet connenction.
+-Good internet connection.
 
 Clone the repo {git clone 
 
