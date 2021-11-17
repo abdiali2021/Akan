@@ -1,6 +1,14 @@
 const form = document.querySelector('.form')
 
-const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
+const maleNames = [
+  "Kwasi",
+  "Kwadwo",
+  "Kwabena",
+  "Kwaku",
+  "Yaw",
+  "Kofi",
+  "Kwame",
+]
 const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 
 form.addEventListener('submit', (e) => {
@@ -15,7 +23,7 @@ form.addEventListener('submit', (e) => {
         if (document.getElementById('male').checked == true) {
             akanName.textContent = `Your Akan name is ${maleNames[day]}`
         }
-        else   {
+        else (document.getElementById('female')) {
             akanName.textContent = `Your Akan name is ${femaleNames[day]}`
         }
     }
