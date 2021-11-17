@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* body {
+    height: 100vh;
+} */
 
 .navbar {
     height: 80px;
@@ -18,7 +21,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/enoch.jpg);
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
 }
 
