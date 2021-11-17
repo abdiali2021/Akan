@@ -23,7 +23,7 @@ form.addEventListener('submit', (e) => {
         if (document.getElementById('male').checked == true) {
             akanName.textContent = `Your Akan name is ${maleNames[day]}`
         }
-        else (document.getElementById('female')) {
+        else   {
             akanName.textContent = `Your Akan name is ${femaleNames[day]}`
         }
     }
